@@ -9,6 +9,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   ![HTML5](https://img.shields.io/badge/-HTML5-4F95DA?style=flat&logo=HTML5)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-4F95DA?style=flat&logo=javascript)
   ![Markdown](https://img.shields.io/badge/Markdown-4F95DA?style=flat&logo=markdown)
+  
+<br> <br>
+
+<img 
+src="https://github.com/LillyButterfly/Calculadora-de-partidas-Rankeadas/assets/88951197/c74a5997-d77d-40d9-93f6-18d1c0d9ac30" width="700px" align="center"/>
 
 <br> <br>
 # 2️⃣ Calculadora de partidas Rankeadas
