@@ -1,0 +1,123 @@
+:root{
+    --text-color: white;
+    --primary-color:  #4F95DA;
+    --secondary-color:  #011225;
+    --font-family: 'Lato', sans-serif;
+    --bg-color: rgba(38, 38, 38, 0.5);
+}
+
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url(./img/blue.bg.jpg);
+    background-size: cover;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    overflow: hidden;
+}
+
+input {
+    background-image:none; 
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+  }
+
+  input, .resultado{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    min-width: 200px;
+    min-height: 20px;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    background-color: var(--bg-color);
+    padding: 35px;
+    border-radius: 8px;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container .btn-container {
+    height: 80px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    height: 0px;
+    position: absolute;
+  }
+  
+  .btn {
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background:var(--primary-color);
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+.resultado{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80px;
+}
+
+.resultado span{
+    font-weight: 400;
+    font-size: 20px;
+}
+  
+#result span.nome,  span.pontos, span.nivel{
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+

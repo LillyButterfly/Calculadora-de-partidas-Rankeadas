@@ -1,6 +1,16 @@
 # Calculadora-de-partidas-Rankeadas
 Desafio 2 Dio  Programação do zero
 
+## Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+ ![CSS](https://img.shields.io/badge/-CSS-4F95DA?;?style=flat&logo=CSS3&logoColor=1572B6)
+  ![HTML5](https://img.shields.io/badge/-HTML5-4F95DA?style=flat&logo=HTML5)
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-4F95DA?style=flat&logo=javascript)
+  ![Markdown](https://img.shields.io/badge/Markdown-4F95DA?style=flat&logo=markdown)
+
+<br> <br>
 # 2️⃣ Calculadora de partidas Rankeadas
 **O Que deve ser utilizado**
 
@@ -27,3 +37,5 @@ Se vitórias for maior ou igual a 101 = Imortal
 
 Ao final deve se exibir uma mensagem:
 "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+
+
